@@ -1,4 +1,15 @@
-title: Sinem Demir's Homepage
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  
+  title: Sinem Demir's Homepage
 description: Personal website of Sinem Demir.
 baseurl: "" # Important: leave this empty for username.github.io
 url: "https://earthsinem.github.io/sinemdemir.github.io/"
