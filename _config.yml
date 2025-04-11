@@ -1,0 +1,21 @@
+title: Sinem Demir's Homepage
+description: Personal website of Sinem Demir.
+baseurl: "" # Important: leave this empty for username.github.io
+url: "https://earthsinem.github.io/sinemdemir.github.io/"  # change this!
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-archives
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
