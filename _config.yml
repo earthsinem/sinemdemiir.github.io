@@ -1,7 +1,7 @@
 title: Sinem Demir's Homepage
 description: Personal website of Sinem Demir.
 baseurl: "" # Important: leave this empty for username.github.io
-url: "https://earthsinem.github.io/sinemdemir.github.io/"  # change this!
+url: "https://sinemdemir.github.io/"
 
 theme: minimal-mistakes-jekyll
 
