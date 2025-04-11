@@ -1,10 +1,63 @@
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: "Sinem Demir's Homepage"
+description: "Personal website of Sinem Demir."
+baseurl: "" # leave empty for user.github.io
+url: "https://earthsinem.github.io/sinemdemir.github.io" # your GitHub Pages repo URL (without trailing slash)
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Optional: display author info on sidebar
+author:
+  name: "Sinem Demir"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Data Scientist | Economist | Sustainability Enthusiast"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-archives
+
+# Output pages in _pages/
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Default settings for pages/posts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation links (defined in _data/navigation.yml)
+# Add this line only if you're using _data/navigation.yml
+navigation:
+  - name: main
+
+# Markdown and build options
+markdown: kramdown
+theme: null # needed when using remote_theme
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Social links (optional)
+social:
+  github: earthsinem
+  linkedin: sinemdemir
+  twitter: earthsinem
